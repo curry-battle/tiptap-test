@@ -1,0 +1,22 @@
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+
+  &[data-active="true"] {
+    background-color: #e5e7eb;
+
+    &:hover {
+      background-color: default;
+    }
+  }
+
+  &[data-active="false"] {
+    &:hover {
+      background-color: #e5e7eb;
+    }
+  }
+}

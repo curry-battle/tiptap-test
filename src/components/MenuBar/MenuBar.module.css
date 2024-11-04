@@ -1,0 +1,11 @@
+.menuBar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 8px;
+}
+.divider {
+  height: 2px;
+  background-color: #e5e7eb;
+  border: none;
+}

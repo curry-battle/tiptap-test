@@ -1,0 +1,9 @@
+.editor {
+  border: 2px solid #e5e7eb;
+  width: 800px;
+  margin: 8px 0;
+}
+
+.editorControl {
+  margin: 8px;
+}
